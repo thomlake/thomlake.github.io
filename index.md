@@ -22,7 +22,8 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
-    
+\\(x^2\\) \\[\frac{x_i^2}{\sqrt{x_k}}\\
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
