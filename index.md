@@ -22,7 +22,7 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
-\\(x^2\\) \\[\frac{x_i^2}{\sqrt{x_k}}\\
+\\(x^2\\) \\[\frac{x_i^2}{\sqrt{x_k}}\\]
 
 ## Sample Posts
 
