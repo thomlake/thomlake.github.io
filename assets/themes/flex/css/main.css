@@ -136,7 +136,7 @@ a:hover {
   color: #494949;
   margin-bottom: 0.35em;
   font-size: 3.5em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .post {
@@ -168,7 +168,8 @@ a:hover {
 }
 
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
+  /*font-family: 'Source Sans Pro', Arial, sans-serif;*/
+  font-family: 'Droid Serif', Georgia, Times, serif;
   font-size: 1.1em;
   margin-bottom: 1.45em;
   text-align: justify;
@@ -177,6 +178,11 @@ a:hover {
 .post ul, .post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
+}
+
+.post li {
+  font-size: 1.1em;
+  font-family: 'Droid Serif', Georgia, Times, serif;
 }
 
 .post code {
@@ -286,13 +292,17 @@ a:hover {
 
 /* about */
 div.about-me-content {
+    font-family: 'Droid Serif', Georgia, Times, serif;
     max-width:420px;
     min-height:170px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 24px;
 }
 
 .about-me-content img {
     float:left;
-    margin: 0px 10px 10px 0px;
+    margin: 6px 10px 10px 0px;
 }
 
 div.highlight {
@@ -302,3 +312,30 @@ div.highlight {
 .inlined { display:inline; }
 
 pre { white-space: pre; overflow: auto; }
+
+.nice-table
+{
+    border-collapse: collapse;
+    background-color: #eee;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.nice-table th
+{
+    background-color:#444; 
+    color:#fff;
+}
+
+.nice-table th, td
+{
+    padding: 2px 15px 2px 2px;
+    text-align: right;
+    
+}
+
+.nice-table caption
+{
+    caption-side: bottom;
+    text-align: center;
+}

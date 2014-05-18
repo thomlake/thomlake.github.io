@@ -39,7 +39,7 @@ and then piping the output to streamingplot
 $ python rwalk.py | streamingplot
 {% endhighlight %}
 
-### Usage
+## Usage
 Most of the code I write is numerical and outputs pretty much the 
 same two things to the terminal, either status messages (loaded data, doing this thing),
  or some metric to let me know what's going on (log likelihood, accuracy, parameter norms, etc).
@@ -76,7 +76,7 @@ fairly thorough explanation. Here's some example output created using the
 
 ![demo]({{ ASSET_PATH }}../images/demo.gif)
 
-### Use Case
+## Use Case
 sar is a linux tool used to "Collect, report, or save system activity information." 
 It's available as part of the 
 [sysstat](http://sebastien.godard.pagesperso-orange.fr) package. 
@@ -105,7 +105,7 @@ but it is awesome for doing stuff like this. Anyway, the result looks like
 
 ![sar result]({{ ASSET_PATH }}../images/sarsmall.gif)
 
-### Weirdness and rough edges
+## Weirdness and rough edges
 Streamingplot started as a quick one off script and only later did 
 I add enough to make it resemble a useful piece of software. 
 It works for everything I've wanted to do with it, but there are certainly some rough edges. 

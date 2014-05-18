@@ -20,7 +20,7 @@ My favorite language is currently <a href="http://julialang.org/">
 Julia</a>. I also write a lot of <a href="https://www.python.org/">Python</a> and 
 <a href="http://mitpress.mit.edu/sicp/">Scheme</a>. You can find me on 
 github <a href="https://github.com/thomlake?tab=repositories">here</a>.
-I'm also fairly active on a couple stackexchange sites. 
+I'm also fairly active on a couple stackexchange sites.<br /><br />
 </div>
 <a href="http://stats.stackexchange.com/users/6248/alto"><img src="http://stats.stackexchange.com/users/flair/6248.png?theme=dark" width="208" height="58" alt="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization" title="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization"></a>
 <a href="http://cs.stackexchange.com/users/1918/alto"><img src="http://cs.stackexchange.com/users/flair/1918.png?theme=dark" width="208" height="58" alt="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science" title="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science"></a>
