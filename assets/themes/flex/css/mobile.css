@@ -133,6 +133,10 @@ div#post-info {
     margin-top: 20px;
 }
 
+.post h3 {
+    margin-top: 20px;
+}
+
 .post p {
   font-family: 'Droid Serif', Georgia, Times, serif;
   text-align: justify;
@@ -156,6 +160,10 @@ div#post-info {
   border: none;
 }
 
+.inlined { display:inline; }
+
+pre { white-space: pre; overflow: auto; }
+
 .post ul, ol {
     margin-top: 10px;
 }
@@ -169,33 +177,41 @@ div#post-info {
 }
 
 /* Other stuff */
-.inlined { display:inline; }
 
-pre { white-space: pre; overflow: auto; }
+.colophon {
+  margin-top: 1.5em;
+  margin-bottom: 1.45em;
+  border-top: 1px dotted #e7e7e7;
+}
 
-.nice-table
-{
+.colophon p {
+  margin-top: 1.25em;
+  font-size: 0.95em;
+  color: #777;
+}
+
+
+.nice-table {
     border-collapse: collapse;
     background-color: #eee;
     border: 2px solid black;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.nice-table th
-{
+.nice-table th {
     background-color:#444; 
     color:#fff;
 }
 
-.nice-table th, td
-{
+.nice-table th, td {
     padding: 2px 15px 2px 2px;
     text-align: right;
     
 }
 
-.nice-table caption
-{
+.nice-table caption {
     caption-side: bottom;
     text-align: center;
 }

@@ -132,11 +132,20 @@ a.header-link:active .tagline {
 
 /* Posts */
 div#post-info {
-    margin-left:50px;
+    margin-left:20px;
+    margin-bottom:20px;
 }
 
 
+div.post {
+    margin-left:20px;
+}
+
 .post h2 {
+    margin-top: 20px;
+}
+
+.post h3 {
     margin-top: 20px;
 }
 
@@ -163,6 +172,10 @@ div#post-info {
   border: none;
 }
 
+.inlined { display:inline; }
+
+pre { white-space: pre; overflow: auto; }
+
 .post ul, ol {
     margin-top: 10px;
 }
@@ -176,9 +189,22 @@ div#post-info {
 }
 
 /* Other stuff */
-.inlined { display:inline; }
 
-pre { white-space: pre; overflow: auto; }
+.colophon {
+  margin-top: 1.5em;
+  margin-bottom: 1.45em;
+  border-top: 1px dotted #e7e7e7;
+}
+
+.colophon p {
+  margin-top: 1.25em;
+  font-size: 0.95em;
+  color: #777;
+}
+
+.grey-box {
+    background-color:#444; 
+}
 
 .nice-table
 {
@@ -186,6 +212,8 @@ pre { white-space: pre; overflow: auto; }
     background-color: #eee;
     border: 2px solid black;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .nice-table th

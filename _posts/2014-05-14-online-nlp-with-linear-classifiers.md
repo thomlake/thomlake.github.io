@@ -3,8 +3,7 @@ layout: post
 tags : [nlp, online]
 ---
 {% include JB/setup %}
-
-All the code used in this post can be found on github [here](https://github.com/thomlake/online-linear-classifiers).
+All the code used in this post can be found on github [here](https://github.com/thomlake/online-linear-classifiers).<br /><br />
 
 The excellent post 
 [A good POS tagger in about 200 lines of Python](http://honnibal.wordpress.com/2013/09/11/a-good-part-of-speechpos-tagger-in-about-200-lines-of-python)
