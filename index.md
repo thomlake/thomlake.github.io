@@ -5,4 +5,4 @@ tagline: home
 ---
 {% include JB/setup %}
 
-<img src="{{ site.url }}/assets/images/glitch.png"/>
+<img style="margin-top: -10px;" src="{{ site.url }}/assets/images/glitch.png"/>

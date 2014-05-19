@@ -3,10 +3,7 @@ layout: default
 title: about
 permalink: /about/
 ---
-<div class="content">
-<br />
-<h1>about</h1>
-<br />
+<div style="margin-left:20px;"><h1>about</h1></div>
 <div class="about-me-content">
 <img src="{{ site.url }}/assets/images/selfy-small.png"/>
 My name is Thom Lake. I'm a graduate student in the Computer 
@@ -22,6 +19,5 @@ Julia</a>. I also write a lot of <a href="https://www.python.org/">Python</a> an
 github <a href="https://github.com/thomlake?tab=repositories">here</a>.
 I'm also fairly active on a couple stackexchange sites.<br /><br />
 </div>
-<a href="http://stats.stackexchange.com/users/6248/alto"><img src="http://stats.stackexchange.com/users/flair/6248.png?theme=dark" width="208" height="58" alt="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization" title="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization"></a>
-<a href="http://cs.stackexchange.com/users/1918/alto"><img src="http://cs.stackexchange.com/users/flair/1918.png?theme=dark" width="208" height="58" alt="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science" title="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science"></a>
-</div>
+<a style="border: none;" href="http://stats.stackexchange.com/users/6248/alto"><img src="http://stats.stackexchange.com/users/flair/6248.png?theme=dark" width="208" height="58" alt="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization" title="profile for alto at Cross Validated, Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization"></a>
+<a style="border: none;" href="http://cs.stackexchange.com/users/1918/alto"><img src="http://cs.stackexchange.com/users/flair/1918.png?theme=dark" width="208" height="58" alt="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science" title="profile for alto at Computer Science Stack Exchange, Q&amp;A for students, researchers and practitioners of computer science"></a>
