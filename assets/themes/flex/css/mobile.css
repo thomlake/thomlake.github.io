@@ -19,9 +19,6 @@ body {
     margin-right: 20px;
 }
 
-img {
-    max-width: 100%;
-}
 
 /* Sidebar */
 
@@ -233,3 +230,8 @@ div.about-me-content {
     float:left;
     margin: 6px 10px 10px 0px;
 }
+
+img {
+    max-width: 100%;
+}
+
