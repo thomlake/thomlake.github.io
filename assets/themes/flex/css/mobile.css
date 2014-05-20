@@ -217,8 +217,6 @@ pre { white-space: pre; overflow: auto; }
 }
 
 /* About */
-
-
 img {
     max-width: 100%;
 }
@@ -228,7 +226,7 @@ div.sebox { margin-left: 20px; }
 .sebox a { border: none; }
 
 div.about-me-content {
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: left;
 }
 
