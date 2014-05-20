@@ -124,6 +124,9 @@ a.header-link:active .tagline {
 }
 
 /* Posts */
+div#post-info {
+    margin-bottom:20px;
+}
 
 .post h2 {
     margin-top: 20px;
