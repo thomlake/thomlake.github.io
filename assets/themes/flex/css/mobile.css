@@ -19,6 +19,10 @@ body {
     margin-right: 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Sidebar */
 
 .sidebar-outer {
