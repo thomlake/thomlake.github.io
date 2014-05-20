@@ -219,7 +219,7 @@ pre { white-space: pre; overflow: auto; }
 /* About */
 div.about-me-content {
     font-family: Raleway, Arial, sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 .about-me-content img {
