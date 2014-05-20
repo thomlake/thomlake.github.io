@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 <div style="margin-left:20px;"><h1>about</h1></div>
-<div class="post, about-me-content">
+<div class="about-me-content">
 <img src="{{ site.url }}/assets/images/selfy-small.png"/>
 My name is Thom Lake. I'm a graduate student in the Computer 
 Science department at Western Michigan University focusing 
