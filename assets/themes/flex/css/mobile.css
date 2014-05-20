@@ -227,7 +227,7 @@ div.sebox { margin-left: 20px; }
 
 div.about-me-content {
     font-family: 'Raleway', Arial, sans-serif;
-    text-align: left;
+    text-align: justify;
 }
 
 .about-me-content img {
