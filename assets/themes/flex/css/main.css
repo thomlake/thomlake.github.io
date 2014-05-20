@@ -141,6 +141,10 @@ div.post {
     margin-left:20px;
 }
 
+#title {
+    text-transform: lowercase;
+}
+
 .post h2 {
     margin-top: 20px;
 }

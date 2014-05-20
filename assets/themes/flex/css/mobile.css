@@ -129,6 +129,10 @@ div#post-info {
     margin-bottom: 20px;
 }
 
+#title {
+    text-transform: lowercase;
+}
+
 .post h2 {
     margin-top: 20px;
 }
