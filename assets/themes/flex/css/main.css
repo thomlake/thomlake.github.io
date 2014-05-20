@@ -248,3 +248,7 @@ div.about-me-content {
     float:left;
     margin: 6px 10px 10px 0px;
 }
+
+div.sebox { margin-left: 20px; }
+
+.sebox a { border: none; }
