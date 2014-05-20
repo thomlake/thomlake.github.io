@@ -218,12 +218,10 @@ pre { white-space: pre; overflow: auto; }
 
 /* About */
 div.about-me-content {
-    font-family: 'Droid Serif', Georgia, Times, serif;
+    /*font-family: 'Droid Serif', Georgia, Times, serif;*/
     max-width:420px;
     min-height:170px;
     text-align: justify;
-    font-size: 1.1em;
-    line-height: 24px;
 }
 
 .about-me-content img {
