@@ -217,15 +217,7 @@ pre { white-space: pre; overflow: auto; }
 }
 
 /* About */
-div.about-me-content {
-    font-family: Raleway, Arial, sans-serif;
-    text-align: left;
-}
 
-.about-me-content img {
-    float:left;
-    margin: 6px 10px 10px 0px;
-}
 
 img {
     max-width: 100%;
@@ -235,3 +227,12 @@ div.sebox { margin-left: 20px; }
 
 .sebox a { border: none; }
 
+div.about-me-content {
+    font-family: Raleway, Arial, sans-serif;
+    text-align: left;
+}
+
+.about-me-content img {
+    float:left;
+    margin: 6px 10px 10px 0px;
+}
