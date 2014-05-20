@@ -52,6 +52,7 @@ The former simply returns all the data (rather than specific subsets typically t
 and the later strips all the metadata. This last step makes the problem significantly more difficult and realistic
 as it prevents the classifier for latching on to specific features that are idiosyncratic to the particular data set
 (like specific email addresses) and not generally interesting for identifying topics. 
+<br /><br />
 
 The second was a collections of reviews taken from Amazon available 
 [here](http://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html). 
@@ -165,6 +166,7 @@ In all cases I used the same small subset of the data and did some random search
 and recommendations from the literature. Interestingly, I found the same parameters to work well on 
 both datasets for the passive-aggressive algorithm and confidence weighted. 
 For logistic regression I needed to reduce the learning rate to get decent performance on the review dataset.
+<br /><br />
 
 To assess each model I simply made a single pass over the full dataset and recorded the total 
 number of errors at time \\(t\\). I repeated this 10 times for different permuations of the data 
@@ -201,6 +203,7 @@ perceptron in an online setting isn't necessarily surprising, but I still wonder
 could be done to fix it. Perhaps using something like an 
 [exponential moving average](http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average)
 to give higher weight to more recent parameter settings, which have seen significantly more data.
+<br /><br />
 
 One thing worth noting is that it may have helped adding a regularization term to the logistic regression model. 
 I didn't do this for two reasons. First, I wanted to keep the number of hyperparameters low. 
