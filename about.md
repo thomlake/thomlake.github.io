@@ -1,15 +1,14 @@
 ---
-layout: page
+layout: landing
 title: About
 permalink: /about/
 ---
+<br />
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# About
+My name is Thom Lake. I am a Computer Scientist specializing in Machine Learning. I received my M.S. in 2015 and currently lead the Algorithm R&D efforts at [Atlas Wearables](https://www.atlaswearables.com/) where my work focuses on the design and implementation of algorithms for complex gesture recognition. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm particularly interested in Structured Input/Output, Neural Networks and Deep Learning, Natural Language Processing, Bayesian methods, and Online Learning. I equally enjoy experimentation and implementation, and try to strike a balance between theory and making things go.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+The photo in the sidebars was taken by [/u/blackemptiness](https://www.reddit.com/user/blackemptiness) and was posted in [this](https://www.reddit.com/r/glitch_art/comments/1u65gm/i_was_told_to_xpost_this_here_i_was_driving/) reddit thread.
+

@@ -1,0 +1,48 @@
+
+.centered {
+    /*text-align: center;*/
+    margin: 20px 0;
+}
+
+ul.stretch {
+    display: table;
+    width: 100%;
+    margin: 1px 0;
+}
+
+.stretch li {
+    display: table-cell;
+    line-height: 50px;
+    text-align: center;
+    background: #424242;
+    color: #fdfdfd;
+    margin: 0;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 20px;
+}​
+
+.garbage {}
+
+.fill-box {
+    /*text-align: center;*/
+    margin: 1px 0 0 0;
+    padding: 0 10px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #424242;
+    color: #fdfdfd;
+}
+
+pre.plain {
+    width: auto;
+    background-color: #424242;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+}
