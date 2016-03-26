@@ -181,7 +181,7 @@ $$
     \end{align*}
 $$ -->
 
-## Story Format
+## Instance Format
 <ul class="stretch">
     <li style="width: 100%; text-align: left; padding: 0 0 0 10px">CLAUSE</li>
 </ul>
@@ -248,9 +248,15 @@ Each story follows the same repeated format.
 
 When looking at the agent and locations appearing in each story, we finally find some variation. Below are plots illustrating the number of _unique_ agents and locations per story. -->
 
-<img style="float: left;" src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/agent-bars.png" />
+## Instance Composition
+<img src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/word-counts.png" />
+<img src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/unique-word-counts.png" />
+<img src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/agent-bars.png" />
+<img src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/location-bars.png" />
+
+<!-- <img style="float: left;" src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/agent-bars.png" />
 <img style="float: left;" src="{{ site.baseurl }}/assets/deconstructing-babi-task-1/location-bars.png" />
-<div style="clear: both;"></div>
+<div style="clear: both;"></div> -->
 
 <!-- I found this especially interesting. Unlike [Memory Networks](http://arxiv.org/abs/1410.3916), which have a number of memories equal to the number of statements in the story, my current work is focused on architectures for solving these sorts of problems using finite memory. Brazenly borrowing terminology from cognitive science "I'm exploring working memory solutions as opposed to long-term memory solutions." From this perspective the number of unique agents per story tells us something about the minimum capabilities required to solve the task. Specifically, a working memory solution will need to at minimum maintain information about the location of 4 agents simultaneously. -->
 
