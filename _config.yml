@@ -17,3 +17,6 @@ github_username:  thomlake
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed

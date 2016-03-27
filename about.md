@@ -12,3 +12,5 @@ I'm particularly interested in Structured Input/Output, Neural Networks and Deep
 
 The photo in the sidebars was taken by [/u/blackemptiness](https://www.reddit.com/user/blackemptiness) and was posted in [this](https://www.reddit.com/r/glitch_art/comments/1u65gm/i_was_told_to_xpost_this_here_i_was_driving/) reddit thread.
 
+<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+
