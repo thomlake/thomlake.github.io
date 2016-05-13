@@ -8,10 +8,7 @@ summary: Overview and summary statistics for bABI task 1.
 
 <link rel='stylesheet' type='text/css' href='{{ site.baseurl }}/assets/deconstructing-babi-task-1/post.css' />
 
-In 2015 [FAIR](https://research.facebook.com/ai) released the bAbI dataset. The dataset consists of 20 synthetic question answering tasks that require reasoning about agents, locations, objects, and intentions. Each instance (story) consists of a sequence of clauses and questions. A full description of the dataset, motivation, and results for several system can be found in the paper [Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks](http://arxiv.org/abs/1502.05698).
-<!-- <div style="width: 50%; text-align: justify; text-justify: inter-word;">
-In 2015 <a href="https://research.facebook.com/ai">FAIR</a> released the bAbI dataset. The dataset consists of 20 synthetic question answering tasks that require reasoning about agents, locations, objects, and intentions. Each instance consists of a sequence of statements and questions. A full description of the dataset, motivation, and results for several system can be found in the paper <a href="http://arxiv.org/abs/1502.05698">Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks</a>.
-</div> -->
+In 2015 [FAIR](https://research.facebook.com/ai) released the [bAbI](https://research.facebook.com/researchers/1543934539189348) dataset. The dataset consists of 20 synthetic question answering tasks that require reasoning about agents, locations, objects, and intentions. Each instance (story) consists of a sequence of clauses and questions. A full description of the dataset, motivation, and results for several system can be found in the paper [Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks](http://arxiv.org/abs/1502.05698).
 
 ## Example Instance
 
