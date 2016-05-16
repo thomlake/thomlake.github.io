@@ -481,8 +481,7 @@ It is also worth noting that the introduction of attention mechanisms into the n
 
 [^bAbI]: [This post]({% post_url 2016-03-20-deconstructing-babi-task-1 %}) contains a detailed breakdown of bAbI task 1.
 
-[^rmsprop]: Tijmen Tieleman and Geoffrey Hinton. [Lecture 6.5](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf) COURSERA: Neural Networks for
-Machine Learning
+[^rmsprop]: Tijmen Tieleman and Geoffrey Hinton. [Lecture 6.5](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf) COURSERA: Neural Networks for Machine Learning.
 
 [^grad-noise]: Arvind Neelakantan, Luke Vilnis, Quoc V. Le, Ilya Sutskever, Lukasz Kaiser, Karol Kurach, and James Martens. ["Adding Gradient Noise Improves Learning for Very Deep Networks."](http://arxiv.org/abs/1511.06807) arXiv preprint arXiv:1511.06807 (2015).
 
