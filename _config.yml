@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: random projections
+title: Thom Lake
 email: thom.l.lake@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  a blog about Machine Learning
+# description: > # this means to ignore newlines until "baseurl:"
+#   a blog about Machine Learning
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
@@ -18,5 +18,5 @@ github_username:  thomlake
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-feed
