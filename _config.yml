@@ -3,7 +3,11 @@ description: AI Researcher and Applied Scientist
 email: thom.l.lake@gmail.com
 baseurl: ""
 logo: /assets/img/thom-and-goose.png
-# github_username:  thomlake
+github_username:  thomlake
+scholar_username: GoZsJjYAAAAJ
+linkedin_username: thomlake
+bsky_username: thomlake.bsky.social
+
 remote_theme: pages-themes/minimal@v0.2.0
 github:
   is_project_page: false
