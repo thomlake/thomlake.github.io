@@ -5,5 +5,7 @@ baseurl: ""
 logo: /assets/img/thom-and-goose.png
 github_username:  thomlake
 remote_theme: pages-themes/minimal@v0.2.0
+github:
+  is_project_page: false
 plugins:
 - jekyll-remote-theme
