@@ -1,22 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Thom Lake
+# description: AI Researcher and Applied Scientist
+
 email: thom.l.lake@gmail.com
-# description: > # this means to ignore newlines until "baseurl:"
-#   a blog about Machine Learning
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
+baseurl: ""
+logo: /assets/img/thom-and-goose.png
 github_username:  thomlake
-
-# Build settings
-markdown: kramdown
-
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme

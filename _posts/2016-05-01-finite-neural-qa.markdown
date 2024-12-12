@@ -33,17 +33,17 @@ Recent works have decoupled model complexity and storage capacity by introducing
 
 
 ## Register Networks
-Register Networks (RegNets) are a neural network architecture featuring a fixed number $$ K $$ of finite dimensional registers coupled with a stateful control mechanism. During the input phase at time $$ t $$ the network observes an input $$ x_t \in \mathcal{X} $$, controller state $$ s_t \in \mathcal{S} $$, and registers $$ \mathbf{m}^1_t, \ldots, \mathbf{m}^K_t $$, $$ \mathbf{m}^i_t \in \mathbb{R}^d $$, and ouputs a new controller state $$ \mathcal{s}_{t+1} $$ and updated registers $$ \mathbf{m}^1_{t+1}, \ldots, \mathbf{m}^K_{t+1} $$. During the output phase the network observes a query $$ q \in \mathcal{Q} $$ and the current state of the registers and produces an output $$ \mathcal{y} \in \mathcal{Y} $$. Thus, at a high level a RegNet can be defined in terms of an input and output function
+Register Networks (RegNets) are a neural network architecture featuring a fixed number $$ K $$ of finite dimensional registers coupled with a stateful control mechanism. During the input phase at time $$ t $$ the network observes an input $$ x_t \in X $$, controller state $$ s_t \in S $$, and registers $$ \mathbf{m}^1_t, \ldots, \mathbf{m}^K_t $$, $$ \mathbf{m}^i_t \in \mathbb{R}^d $$, and ouputs a new controller state $$ s_{t+1} $$ and updated registers $$ \mathbf{m}^1_{t+1}, \ldots, \mathbf{m}^K_{t+1} $$. During the output phase the network observes a query $$ q \in Q $$ and the current state of the registers and produces an output $$ y \in Y $$. Thus, at a high level a RegNet can be defined in terms of an input and output function
 
 $$
     \begin{align*}
         & f_i \colon
-            & \mathcal{X} \times \mathcal{S} \times \mathbb{R}^{d \times K}
-            & \longrightarrow \mathcal{S} \times \mathbb{R}^{d \times K}
+            & X \times S \times \mathbb{R}^{d \times K}
+            & \longrightarrow S \times \mathbb{R}^{d \times K}
             & \text{input} \\
         & f_o \colon 
-            & \mathcal{Q} \times \mathbb{R}^{d \times K} 
-            & \longrightarrow \mathcal{Y}
+            & Q \times \mathbb{R}^{d \times K} 
+            & \longrightarrow Y
             & \text{output} \\
     \end{align*}
 $$
@@ -245,11 +245,11 @@ The difference in performance between the RegNet and FF-NTM is more difficult to
 ### Hypothesis 1: Diffuse Register Weights
 Intuitively one would expect individual read and write weights to be highly focused on a single register location. On the other hand the average weighting for each agent should be diffuse since the register each agent is assigned should depend on the order in which they appear in the story, not the identity of the agent. 
 
-These intuitive ideas can be formalized using the information theoretic concept of entropy.[^shannon-entropy] To this end let $$ \mathcal{W} $$ be the set of write (or read) weightings. Likewise let $$ \mathcal{W}_i \subseteq \mathcal{W} $$, $$ i = 1, \ldots, N_a $$ be the set of weightings when the subject of the clause (or query) is agent $$ i $$. Define the conditional expected weight for agent $$ i $$ as
+These intuitive ideas can be formalized using the information theoretic concept of entropy.[^shannon-entropy] To this end let $$ W $$ be the set of write (or read) weightings. Likewise let $$ W_i \subseteq W $$, $$ i = 1, \ldots, N_a $$ be the set of weightings when the subject of the clause (or query) is agent $$ i $$. Define the conditional expected weight for agent $$ i $$ as
 
 $$
 \begin{align*}
-    \bar{\mathbf{w}}_i &= \frac{1}{|\mathcal{W}_i|} \sum_{\mathbf{w} \in \mathcal{W}_i} \mathbf{w}
+    \bar{\mathbf{w}}_i &= \frac{1}{|W_i|} \sum_{\mathbf{w} \in W_i} \mathbf{w}
 \end{align*}
 $$
 
@@ -265,7 +265,7 @@ and the average weight entropy is
 
 $$
 \begin{align*}
-    h &= \frac{1}{|\mathcal{W}|} \sum_{\mathbf{w} \in \mathcal{W}} \text{H}(\mathbf{w}) \\
+    h &= \frac{1}{|W|} \sum_{\mathbf{w} \in W} \text{H}(\mathbf{w}) \\
 \end{align*}
 $$
 
@@ -339,16 +339,16 @@ However, as can also be seen in Table 2 this is true in general of the write wei
 ### Hypothesis 2: Error Correction
 Another possible explanation for the observed performance difference is that the stateful control mechanism of the RegNet endues it with an ability to correct previous errors when writing to the registers. 
 
-Let $$ \mathbf{w}_{ij} $$ and $$ s_{ij} $$ be the write weights and agent for the $$ j^{th} $$ clause (question) in story $$ i $$, $$ \mathcal{A}_i = \{ s_{ij} \mid j = 1, \ldots, N_i \} $$ be the set of agents appearing in any clause (question) in story $$ i $$, and define the set of write (read) positions for agent $$ a $$ in story $$ i $$ as
+Let $$ \mathbf{w}_{ij} $$ and $$ s_{ij} $$ be the write weights and agent for the $$ j^{th} $$ clause (question) in story $$ i $$, $$ A_i = \{ s_{ij} \mid j = 1, \ldots, N_i \} $$ be the set of agents appearing in any clause (question) in story $$ i $$, and define the set of write (read) positions for agent $$ a $$ in story $$ i $$ as
 
 $$
-    \mathcal{P}_i(a) = \{\arg\max(\mathbf{w}_{ij}) \mid s_{i,j} = a \}
+    P_i(a) = \{\arg\max(\mathbf{w}_{ij}) \mid s_{i,j} = a \}
 $$
 
 Then a write (read) error is said to occur in story $$ i $$ whenever
 
 $$ 
-    \exists a \in \mathcal{A}_i \; s.t. \; \left| \mathcal{P}_i(a) \right| > 1 
+    \exists a \in A_i \; s.t. \; \left| P_i(a) \right| > 1 
 $$
 
 Lastly the term _Story Error_ will be used to refer to the number of incorrectly answered questions in a given story. Table 2 gives the empirical probability of several read, write, and story error related events.
