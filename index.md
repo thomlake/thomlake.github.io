@@ -14,7 +14,7 @@ Before joining Indeed, I was a Machine Learning Scientist at Amazon where I prim
 
 [From Distributional to Overton Pluralism: Investigating Large Language Model Alignment](https://arxiv.org/abs/2406.17692)  
 **Thom Lake**, Eunsol Choi, and Greg Durrett.
-*Pluralistic Alignment Workshop at NeurIPS 2024*.
+*NAACL 2025*.
 
 (preprint) [Distilling Large Language Models using Skill-Occupation Graph Context for HR-Related Tasks](https://arxiv.org/abs/2311.06383)  
 Pouya Pezeshkpour, Hayate Iso, **Thom Lake**, Nikita Bhutani, Estevam Hruschka.
