@@ -4,17 +4,20 @@ layout: default
 
 ## About
 
-I'm a Principal AI Scientist at [Indeed](https://www.indeed.com/) and a Computer Science Ph.D. student at the [University of Texas at Austin](https://taur.cs.utexas.edu/) where I am co-advised by [Greg Durrett](https://www.cs.utexas.edu/~gdurrett/) and [Eunsol Choi](https://eunsol.github.io/).
+I work on language-model systems for open-ended problems. My work brings together agentic systems, simulation, principled evaluation, and human–computer interaction. I'm currently an AI Technical Fellow at [Indeed](https://www.indeed.com/). Before joining Indeed, I was a Machine Learning Scientist at Amazon where I primarily worked on deep learning for ranking and recommender systems. I received an MS in Computer Science from [Western Michigan University](https://wmich.edu/) and was a member of the [TAUR](https://taur.cs.utexas.edu/) lab at UT Austin, led by [Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
 
-I am broadly interested in deep learning for natural language processing. My current research focuses on reasoning, consistency, factuality, and post-training in the context of neural language models.
+**Research interests:** agent runtimes, evaluation, interactive environments, recommender systems, and post-training for reasoning, coherence, and memory management
 
-Before joining Indeed, I was a Machine Learning Scientist at Amazon where I primarily worked on deep learning for ranking and recommender systems. I received my MS in Computer Science from [Western Michigan University](https://wmich.edu/).
 
 ## Publications
 
 [From Distributional to Overton Pluralism: Investigating Large Language Model Alignment](https://arxiv.org/abs/2406.17692)  
 **Thom Lake**, Eunsol Choi, and Greg Durrett.
 *NAACL 2025*.
+
+[ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models](https://arxiv.org/abs/2505.13444)  
+Liyan Tang, Grace Kim, Xinyu Zhao, **Thom Lake**, Wenxuan Ding, Fangcong Yin, Prasann Singhal, Manya Wadhwa, Zeyu Leo Liu, Zayne Sprague, Ramya Namuduri, Bodun Hu, Juan Diego Rodriguez, Puyuan Peng, Greg Durrett.
+*NeurIPS 2025*
 
 (preprint) [Distilling Large Language Models using Skill-Occupation Graph Context for HR-Related Tasks](https://arxiv.org/abs/2311.06383)  
 Pouya Pezeshkpour, Hayate Iso, **Thom Lake**, Nikita Bhutani, Estevam Hruschka.
@@ -34,7 +37,7 @@ Pouya Pezeshkpour, Hayate Iso, **Thom Lake**, Nikita Bhutani, Estevam Hruschka.
 Estevam Hruschka, **Thom Lake**, Naoki Otani, Tom Mitchell (Editors).
 *EACL Workshop 2024*.
 
-[Analyzing Repetitive Sequences with Structured Dynamic Bayesian Networks](https://github.com/thomlake/thesis/blob/master/tllake.thesis.pdf)  
+[Analyzing Repetitive Sequences with Structured Dynamic Bayesian Networks](https://scholarworks.wmich.edu/masters_theses/662/)  
 **Thom Lake**.
 *Thesis 2015*.
 
