@@ -4,10 +4,13 @@ layout: default
 
 ## About
 
-I work on language-model systems for open-ended problems. My work brings together agentic systems, simulation, principled evaluation, and human–computer interaction. I'm currently an AI Technical Fellow at [Indeed](https://www.indeed.com/). Before joining Indeed, I was a Machine Learning Scientist at Amazon, where I worked on deep learning for ranking and recommender systems. I received an MS in Computer Science from [Western Michigan University](https://wmich.edu/) and was a member of the [TAUR](https://taur.cs.utexas.edu/) lab at UT Austin, led by [Greg Durrett](https://www.cs.utexas.edu/~gdurrett/).
+I work on language-model systems for open-ended problems. My work brings together agentic systems, simulation, principled evaluation, and human–computer interaction.
+
+I'm currently an AI Technical Fellow at [Indeed](https://www.indeed.com/). Before joining Indeed, I was a Machine Learning Scientist at Amazon, where I worked on deep learning for ranking and recommender systems. I received an MS in Computer Science from [Western Michigan University](https://wmich.edu/) in 2015 and was a member of the [TAUR](https://taur.cs.utexas.edu/) lab at UT Austin, led by [Greg Durrett](https://www.cs.utexas.edu/~gdurrett/), from 2023 to 2025.
 
 **Research interests:** agent runtimes, evaluation, interactive environments, recommender systems, and post-training for reasoning, coherence, and memory management
 
+**Resume/CV:** [PDF](https://github.com/thomlake/resume/blob/main/dist/thomlake-resume-long.pdf) | [Markdown](https://raw.githubusercontent.com/thomlake/resume/refs/heads/main/src/thomlake-resume-long.md)
 
 ## Publications
 
