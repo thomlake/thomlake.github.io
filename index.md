@@ -10,7 +10,7 @@ I'm currently an AI Technical Fellow at [Indeed](https://www.indeed.com/). Befor
 
 **Research interests:** agent runtimes, evaluation, interactive environments, recommender systems, and post-training for reasoning, coherence, and memory management
 
-**Resume/CV:** [PDF](https://github.com/thomlake/resume/blob/main/dist/thomlake-resume-long.pdf) | [Markdown](https://raw.githubusercontent.com/thomlake/resume/refs/heads/main/src/thomlake-resume-long.md)
+**Resume/CV:** [PDF](https://github.com/thomlake/resume/blob/main/dist/thomlake-resume-long.pdf) \| [Markdown](https://raw.githubusercontent.com/thomlake/resume/refs/heads/main/src/thomlake-resume-long.md)
 
 ## Publications
 
